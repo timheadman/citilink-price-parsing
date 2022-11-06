@@ -107,7 +107,7 @@ def sched_citilink():
                              f"Citilink:\nИзменение стоимости {data['name']}, "
                              f"{data['sku']}:\n{last_price}р. -> {data['price']}р.")
         else:
-            print('Price is the same.')
+            print('Price is the same or products out of stock.')
 
     connection.close()
 
